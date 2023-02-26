@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body *{
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-image: url(images/Fundo.png);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #210002;
+    margin-top: 16px;
+    color: white;
+}
+
+
+header img, .post img {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+}
+
+section, footer {
+    background-color: #471104a1;
+}
+
+.imagem-bianca {
+    width: 120px;
+    background-image: linear-gradient(90deg, #dc903f 0%, #c3246a 50.52%, #7623bd 100%);
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    padding: 4px;
+
+    transition: transform .3s;
+}
+
+.imagem-bianca:hover {
+    transform: scale(1.1);
+}
+
+.imagem-book a {
+    width: 120px;
+    background-image: linear-gradient(90deg, #dc903f 0%, #c3246a 50.52%, #7623bd 100%);
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    margin: auto;
+
+    transition: transform .3s;
+}
+
+.imagem-book a:hover {
+    transform: scale(1.1);
+}
+
+.contact-socialNetwork {
+    padding: 32px;
+}
+
+main * {
+    line-height: 160%;
+}
+
+footer, main {
+    display: grid;
+    max-width: 1200px;
+    width: 90%;
+    margin: 32px auto;
+    border-radius: 10px;
+}
+
+section {
+    background-image: linear-gradient(90deg, #dc903f 0%, #c3246a 50.52%, #7623bd 100%);
+    border-radius: 10px;
+    padding-top: 4px;
+}
+
+.phrases-books {
+    background-color: #210002;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+.post {
+    display: flex;
+    margin-top: 12px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto {
+    margin-left: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 8px;
+}
+
+.contact img {
+    width: 30px;
+    height: 30px;
+
+    transition: transform .3s;
+}
+
+.contact img:hover {
+    transform: scale(1.1);
+}
+
+ul li {
+    padding: 8px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination div {
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.pagination div:not(.numbers),
+.pagination div.numbers div {
+    width: 40px;
+    height: 40px;
+}
+
+.pagination div:hover {
+    color: #dc903f;
+}
