@@ -13,6 +13,8 @@ createPost("https://m.media-amazon.com/images/I/81u8c5lziEL.jpg", "https://www.a
             "Até o Verão Terminar", "Collen Hoover")
 createPost("https://m.media-amazon.com/images/I/91N9kjbqxWS.jpg", "https://www.amazon.com.br/rei-perverso-Vol-Povo-Ar/dp/8501118834", "Se você é a doença, acho que não pode ser a cura também.",
             "O Rei Perverso", "Holly Black")
+createPost("https://m.media-amazon.com/images/I/51HCoHH0uvL.jpg", "https://www.amazon.com.br/Atrás-espelho-lado-sombrio-Livro-ebook/dp/B00NEV8BFI", "Nada pode quebrar os laços que você inspirou no meu coração. Porque você é o País das Maravilhas.",
+            "Atrás do Espelho", "A. G. Howard")
 
 function createPost(adressImage, linkBook, phraseBook, nameBook, autorBook){
     posts.push(`
@@ -23,9 +25,10 @@ function createPost(adressImage, linkBook, phraseBook, nameBook, autorBook){
             </a>
         </div>
         <div class="texto">
-            <p>"${phraseBook}" - ${nameBook}</a> (${autorBook})</p>                    
+            <p>"${phraseBook}" - ${nameBook} (${autorBook})</p>                    
         </div>
     </div>`)
+    console.log(posts)
 }
 
 const state = {
@@ -90,7 +93,7 @@ const list = {
 
         let page = state.page - 1;
 
-        const itemsPage = posts.slice(page * state.perPage, page+1 * state.perPage)
+        const itemsPage = posts.slice(page * state.perPage, (page+1) * state.perPage)
         itemsPage.forEach(list.create);
 
 
