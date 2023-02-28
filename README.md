@@ -6,6 +6,8 @@
 * O projeto consiste em um site com trechos/frases que considerei marcantes de alguns livros que li ao longo da vida.
 São exibidas 5 frases por página e juntamente às frases há uma imagem do livro que, ao clica-la, redireciona o usuário para um site de venda (Amazon - bons preços/ opção para Kindle).
 
+...Em breve novas funcionalidades ligadas à jogos!!!
+
 ## 🛠 Tecnologias
 - HTML
 - CSS
