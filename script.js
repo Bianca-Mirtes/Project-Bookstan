@@ -15,7 +15,7 @@ createPost("https://m.media-amazon.com/images/I/91N9kjbqxWS.jpg", "https://www.a
             "O Rei Perverso", "Holly Black")
 createPost("https://m.media-amazon.com/images/I/51HCoHH0uvL.jpg", "https://www.amazon.com.br/Atrás-espelho-lado-sombrio-Livro-ebook/dp/B00NEV8BFI", "Nada pode quebrar os laços que você inspirou no meu coração. Porque você é o País das Maravilhas.",
             "Atrás do Espelho", "A. G. Howard")
-createPost("https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2022/04/01/806x444/1_assim_que_acaba-20796012.jpg", "https://www.amazon.com.br/Assim-que-Acaba-Colleen-Hoover/dp/8501112518", "[...] Plantas recompensam a pessoa com base na quantidade de amor que recebem. Se for cruel ou negligenciá-las, elas não te dão nada. Mas se cuidar delas, se amá-las do jeito certo, vão te recompensar com presentes na forma de verduras, frutas ou flores.",
+createPost("https://m.media-amazon.com/images/I/81jqGtBE2qL.jpg", "https://www.amazon.com.br/Assim-que-Acaba-Colleen-Hoover/dp/8501112518", "[...] Plantas recompensam a pessoa com base na quantidade de amor que recebem. Se for cruel ou negligenciá-las, elas não te dão nada. Mas se cuidar delas, se amá-las do jeito certo, vão te recompensar com presentes na forma de verduras, frutas ou flores.",
             "É Assim que Acaba", "Colleen Hoover");
 
 function createPost(adressImage, linkBook, phraseBook, nameBook, autorBook){
